@@ -1,0 +1,29 @@
+/* Utility css classes */
+
+@media screen and (max-width: 768px) {
+    .desktopOnly {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobileOnly {
+        display: none;
+    }
+}
+
+.whiteBackgroundColor {
+    background-color: white !important;
+}
+
+.scrolledHeader {
+    display: none;
+}
+
+.navPadding {
+    height: 70px;
+}
+
+.justifyTextAlign {
+    text-align: justify;
+}
